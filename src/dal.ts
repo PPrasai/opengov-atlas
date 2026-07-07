@@ -1,4 +1,4 @@
-import { DataAccess, GraphNode, Neighbourhood, NodeId, ClusterAggregate, GraphEdge } from './types';
+import { DataAccess, GraphNode, Neighbourhood, NodeId } from './types';
 import { Node, Edge } from 'reactflow';
 
 class WorkerRPC implements DataAccess {

@@ -73,7 +73,7 @@ function FlowApp() {
     const center = params.get('center');
     if (center) {
       dal.entityDetail(center).then(node => {
-        if (node) handleSelectRef(node, false, true);
+        if (node) handleSelectRef(node, true);
       }).catch(console.error);
     }
 
@@ -105,7 +105,7 @@ function FlowApp() {
     return () => clearTimeout(timer);
   }, [searchQuery, trackFilter]);
 
-  const handleSelectRef = useCallback(async (ref: GraphNode, isBack: boolean = false, isInitial: boolean = false) => {
+  const handleSelectRef = useCallback(async (ref: GraphNode, isInitial: boolean = false) => {
     try {
       latestQueryId.current = ref.id;
 
@@ -373,7 +373,7 @@ function FlowApp() {
     }
   }, [breadcrumbs, setNodes, setEdges, fitView, handleInfoClick]);
 
-  const handleNodeClick = useCallback(async (event: React.MouseEvent, node: Node) => {
+  const handleNodeClick = useCallback(async (_event: React.MouseEvent, node: Node) => {
     const data = node.data.nodeData as GraphNode;
     if (!data) return;
     
@@ -520,16 +520,16 @@ function FlowApp() {
               <div className="text-sm font-medium text-blue-300 mb-2">{selectedNode.label}</div>
               <div className="text-xs text-slate-400 uppercase mb-4">{selectedNode.kind}</div>
               
-              {selectedNode.kind === 'preimage' && selectedNode.data.decoded_pallet && (
+              {selectedNode.kind === 'preimage' && Boolean(selectedNode.data.decoded_pallet) && (
                 <div className="mb-4 bg-slate-700/30 p-3 rounded-lg border border-slate-600/50">
                   <div className="text-xs text-slate-400 mb-1">Call</div>
                   <div className="font-mono text-sm text-emerald-400 mb-2">
-                    {selectedNode.data.decoded_pallet}.{selectedNode.data.decoded_method}
+                    {String(selectedNode.data.decoded_pallet)}.{String(selectedNode.data.decoded_method)}
                   </div>
-                  {selectedNode.data.amount && (
+                  {Boolean(selectedNode.data.amount) && (
                     <>
                       <div className="text-xs text-slate-400 mb-1 mt-3">Treasury Spend</div>
-                      <div className="text-sm text-slate-200">{selectedNode.data.amount} planck</div>
+                      <div className="text-sm text-slate-200">{String(selectedNode.data.amount)} planck</div>
                     </>
                   )}
                 </div>
@@ -542,7 +542,7 @@ function FlowApp() {
                     {clusterMembers.map(m => (
                       <div key={m.id} className="text-xs bg-slate-900 p-2 rounded cursor-pointer hover:bg-slate-700" onClick={() => handleSelectRef(m)}>
                         <div className="text-emerald-400">{m.label}</div>
-                        <div className="text-slate-500 mt-1">{m.data.effective_weight} weight</div>
+                        <div className="text-slate-500 mt-1">{String(m.data.effective_weight)} weight</div>
                       </div>
                     ))}
                   </div>
