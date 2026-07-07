@@ -1,0 +1,140 @@
+{
+  "Referenda.Confirmed": {
+    "block": 20000600,
+    "args": {
+      "index": 544,
+      "tally": {
+        "ayes": "694450662560015914",
+        "nays": "4442630355796187",
+        "support": "206029827082005583"
+      }
+    }
+  },
+  "Delegated": {
+    "block": 20000852,
+    "args": [
+      "0x76e712310ec635d901f2b2614b8208fae07d1b84559e3908956af7119811d708",
+      "0x63206239ed004343cce85027f05c7fea001f12b65f257f11f53a414a1c1ee9a0"
+    ]
+  },
+  "delegate": {
+    "block": 20000852,
+    "args": {
+      "class": 0,
+      "to": {
+        "__kind": "Id",
+        "value": "0x63206239ed004343cce85027f05c7fea001f12b65f257f11f53a414a1c1ee9a0"
+      },
+      "conviction": {
+        "__kind": "Locked2x"
+      },
+      "balance": "20000000000"
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0x76e712310ec635d901f2b2614b8208fae07d1b84559e3908956af7119811d708"
+      }
+    }
+  },
+  "note_preimage": {
+    "block": 20001890,
+    "args": {
+      "bytes": "0x2202900090daa31318e9fd2176e14064d571be84d19f722b70ca0212ebbe2aae4489113600"
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0x9e7c73972c8cf09884b6647f957d945a8c9109ccd4e742e843e89b343a43651c"
+      }
+    }
+  },
+  "Referenda.Submitted": {
+    "block": 20001959,
+    "args": {
+      "index": 598,
+      "track": 34,
+      "proposal": {
+        "hash": "0xae7204202b95f53fd3f29de8c4bbcef9d9a4158407c14332a7a309ff6ce70fde",
+        "len": 37,
+        "__kind": "Lookup"
+      }
+    }
+  },
+  "submit": {
+    "block": 20001959,
+    "args": {
+      "proposalOrigin": {
+        "__kind": "Origins",
+        "value": {
+          "__kind": "BigSpender"
+        }
+      },
+      "proposal": {
+        "hash": "0xae7204202b95f53fd3f29de8c4bbcef9d9a4158407c14332a7a309ff6ce70fde",
+        "len": 37,
+        "__kind": "Lookup"
+      },
+      "enactmentMoment": {
+        "__kind": "After",
+        "value": 100
+      }
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0x9e7c73972c8cf09884b6647f957d945a8c9109ccd4e742e843e89b343a43651c"
+      }
+    }
+  },
+  "Referenda.DecisionDepositPlaced": {
+    "block": 20002026,
+    "args": {
+      "index": 598,
+      "who": "0x9e7c73972c8cf09884b6647f957d945a8c9109ccd4e742e843e89b343a43651c",
+      "amount": "4000000000000"
+    }
+  },
+  "Referenda.DecisionStarted": {
+    "block": 20004359,
+    "args": {
+      "index": 598,
+      "track": 34,
+      "proposal": {
+        "hash": "0xae7204202b95f53fd3f29de8c4bbcef9d9a4158407c14332a7a309ff6ce70fde",
+        "len": 37,
+        "__kind": "Lookup"
+      },
+      "tally": {
+        "ayes": "0",
+        "nays": "56624763452276",
+        "support": "50000000000000"
+      }
+    }
+  },
+  "Referenda.Rejected": {
+    "block": 20031093,
+    "args": {
+      "index": 521,
+      "tally": {
+        "ayes": "275721915504368",
+        "nays": "350340331630677688",
+        "support": "600719154143695"
+      }
+    }
+  },
+  "Referenda.TimedOut": {
+    "block": 20037487,
+    "args": {
+      "index": 563,
+      "tally": {
+        "ayes": "3513545467962191",
+        "nays": "27988530172904589",
+        "support": "1436501222427044"
+      }
+    }
+  }
+}

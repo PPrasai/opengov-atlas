@@ -1,0 +1,21 @@
+{
+  "block": 15979493,
+  "ts": "2023-06-15T14:11:24.000Z",
+  "source": "call",
+  "args": {
+    "pollIndex": 2,
+    "vote": {
+      "aye": "0",
+      "nay": "0",
+      "abstain": "10000000000",
+      "__kind": "SplitAbstain"
+    }
+  },
+  "origin": {
+    "__kind": "system",
+    "value": {
+      "__kind": "Signed",
+      "value": "0x04f3da939fa351c562c7e06e1e3716976b5e14230e83a45995cbad9086f49e17"
+    }
+  }
+}

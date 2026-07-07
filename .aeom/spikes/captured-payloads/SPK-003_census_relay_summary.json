@@ -1,0 +1,38 @@
+{
+  "chain": "relay",
+  "from": 15800000,
+  "to": 28600000,
+  "lastBlock": 28600000,
+  "lastTs": "2025-11-11T22:18:42.000Z",
+  "voteCalls": 220335,
+  "votedEvents": 28608,
+  "callKinds": {
+    "Standard": 203591,
+    "Split": 901,
+    "SplitAbstain": 15843,
+    "other": 0
+  },
+  "eventKinds": {
+    "Standard": 25090,
+    "Split": 64,
+    "SplitAbstain": 3454,
+    "other": 0
+  },
+  "delegateCalls": 24763,
+  "delegatedEvents": 24219,
+  "notePreimageCalls": 2254,
+  "referendaSubmitted": 1782,
+  "distinctPolls": 1782,
+  "totalVotes": 248943,
+  "votesPerPoll_stats": {
+    "n": 1782,
+    "sum": 220335,
+    "mean": 123.6,
+    "median": 105,
+    "p90": 202,
+    "max": 1614
+  },
+  "splitN": 3,
+  "splitAbstainN": 3,
+  "elapsedSec": 3555
+}

@@ -1,0 +1,94 @@
+{
+  "integrity_check": "ok",
+  "errors": [],
+  "fixtureCount": 7,
+  "kindsCovered": [
+    "Split",
+    "SplitAbstain",
+    "Standard"
+  ],
+  "mapped": [
+    {
+      "file": "vote_call_SplitAbstain_0.json",
+      "kind": "SplitAbstain",
+      "direction": "SplitAbstain",
+      "conviction": 0,
+      "balance": "10000000000",
+      "aye_balance": "0",
+      "nay_balance": "0",
+      "abstain_balance": "10000000000",
+      "effective_weight": "1000000000"
+    },
+    {
+      "file": "vote_call_SplitAbstain_1.json",
+      "kind": "SplitAbstain",
+      "direction": "SplitAbstain",
+      "conviction": 0,
+      "balance": "100000000000",
+      "aye_balance": "0",
+      "nay_balance": "0",
+      "abstain_balance": "100000000000",
+      "effective_weight": "10000000000"
+    },
+    {
+      "file": "vote_call_SplitAbstain_2.json",
+      "kind": "SplitAbstain",
+      "direction": "SplitAbstain",
+      "conviction": 0,
+      "balance": "100000000000",
+      "aye_balance": "0",
+      "nay_balance": "0",
+      "abstain_balance": "100000000000",
+      "effective_weight": "10000000000"
+    },
+    {
+      "file": "vote_call_Split_0.json",
+      "kind": "Split",
+      "direction": "Split",
+      "conviction": 0,
+      "balance": "300000000000",
+      "aye_balance": "150000000000",
+      "nay_balance": "150000000000",
+      "abstain_balance": null,
+      "effective_weight": "30000000000"
+    },
+    {
+      "file": "vote_call_Split_1.json",
+      "kind": "Split",
+      "direction": "Split",
+      "conviction": 0,
+      "balance": "300000000000",
+      "aye_balance": "150000000000",
+      "nay_balance": "150000000000",
+      "abstain_balance": null,
+      "effective_weight": "30000000000"
+    },
+    {
+      "file": "vote_call_Split_2.json",
+      "kind": "Split",
+      "direction": "Split",
+      "conviction": 0,
+      "balance": "300000000000",
+      "aye_balance": "150000000000",
+      "nay_balance": "150000000000",
+      "abstain_balance": null,
+      "effective_weight": "30000000000"
+    },
+    {
+      "file": "vote_call_Standard.json",
+      "kind": "Standard",
+      "direction": "Nay",
+      "conviction": 0,
+      "balance": "10000000000",
+      "aye_balance": null,
+      "nay_balance": null,
+      "abstain_balance": null,
+      "effective_weight": "1000000000"
+    }
+  ],
+  "singleHopWhaleSample": {
+    "voter": "0x04f3da939fa351c562c7e06e1e3716976b5e14230e83a45995cbad9086f49e17",
+    "direction": "SplitAbstain",
+    "effective_weight": "1000000000"
+  }
+}

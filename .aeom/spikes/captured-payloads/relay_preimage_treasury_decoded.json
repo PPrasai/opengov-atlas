@@ -1,0 +1,28 @@
+{
+  "note": "SPK-003 Obj4 treasury preimage fixture (relay). Raw note_preimage bytes decoded via @polkadot/api at noting block to treasury.spendLocal{amount,beneficiary}.",
+  "block": 20010702,
+  "ts": "2024-03-22T13:28:00.000Z",
+  "section": "treasury",
+  "method": "spendLocal",
+  "lenBytes": 42,
+  "raw_note_preimage": {
+    "bytes": "0x13030b00801b84ee3200008dec70ada2dd268b757271694877ec43dce861b9cb83199d0ecf9b5a8db13f"
+  },
+  "decoded_args": {
+    "amount": "56,000,000,000,000",
+    "beneficiary": {
+      "Id": "11jAHd8SaEt9Rni7XSNNK4Wtnwru1Y5W792iG3FQURYzHkS"
+    }
+  },
+  "methodDistribution": {
+    "bounties.proposeCurator": 2,
+    "treasury.spendLocal": 39,
+    "whitelist.dispatchWhitelistedCallWithPreimage": 3,
+    "system.setCode": 1,
+    "bounties.acceptCurator": 1,
+    "beefy.setNewGenesis": 1,
+    "bounties.approveBounty": 1,
+    "referenda.cancel": 1,
+    "utility.batchAll": 1
+  }
+}

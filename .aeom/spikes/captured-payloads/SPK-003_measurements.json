@@ -1,0 +1,81 @@
+{
+  "generated": "2026-07-08",
+  "source": "SPK-003 real backfill atlas.db (relay era, idx 0-1580, 85.4% of full-history votes)",
+  "census_full": {
+    "referenda": 1919,
+    "relay": 1782,
+    "assethub": 137,
+    "vote_calls": 227246,
+    "distinct_latest_votes_est": 205300,
+    "delegations": 25943,
+    "preimages": 2462
+  },
+  "size": {
+    "method": "VACUUMed real DB; extrapolate by referendum-count ratio 1.214 (85%->100%)",
+    "build_db_MB_85pct": 35.7,
+    "build_db_MB_full_est": 42,
+    "shipped_db_MB_85pct_deduped_bytesStripped": 15.3,
+    "shipped_db_MB_full_est": 18.6,
+    "raw_preimage_bytes_share_of_build_pct": 53,
+    "threshold_N_MB": 75,
+    "decision": "ship-whole to OPFS/in-memory (shipped ~19MB << 75MB)"
+  },
+  "vote_dedup": {
+    "rows_before": 194093,
+    "rows_after": 175330,
+    "superseded_removed": 18763,
+    "pct": 9.7,
+    "note": "one bot (voter 1273) cast 1550 of the removed on poll 1042; steady-state dedup ~2-3%. Keep latest AccountVote per (voter,poll)."
+  },
+  "completeness_85pct": {
+    "referenda": 1581,
+    "with_proposer": 1581,
+    "with_proposer_pct": 100,
+    "lookup_refs": 1473,
+    "lookup_with_available_preimage": 1465,
+    "preimage_availability_pct": 99.5,
+    "distinct_voters": 7153,
+    "distinct_delegators": 1083,
+    "distinct_delegates": 363,
+    "accounts": 8089
+  },
+  "graph_closure": {
+    "proven": true,
+    "loop_example": "referendum:79 <-> account:836 (proposer of 96 referenda)",
+    "breadcrumb": "auto-collapse to length 0 on revisit of breadcrumb[-1]",
+    "dead_ends": 0
+  },
+  "whale_directive_D": {
+    "busiest_by_distinct_voters": 453,
+    "distinct_voters": 751,
+    "top9_effective_weight_DOT": [
+      25500,
+      21900,
+      12262,
+      12002,
+      10835,
+      10003,
+      10000,
+      8200,
+      8070
+    ],
+    "top9_share_pct": 36.5,
+    "aggregate_node": {
+      "label": "+742",
+      "voters": 742,
+      "ayes": 678,
+      "nays": 57,
+      "effective_weight_DOT": 206773
+    }
+  },
+  "latency_ms_native": {
+    "whale_index": 0.152,
+    "referenda_by_proposer": 0.194,
+    "busiest_poll_votes": 1.673
+  },
+  "interning_integrity": {
+    "account_ids": 8089,
+    "distinct_pubkeys": 8089,
+    "collisions": 0
+  }
+}

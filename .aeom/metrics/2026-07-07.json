@@ -1,0 +1,17 @@
+{
+  "project": "opengov-atlas",
+  "artifacts_tracked": 8,
+  "post_freeze_discovery_rate": 0.0,
+  "review_escape_rate": null,
+  "rework_ratio": 0.0,
+  "time_to_freeze_days_median": 0.0,
+  "evidence_quality_share": 0.594,
+  "assumption_residue": 2,
+  "tag_counts": {
+    "E1": 35,
+    "E2": 6,
+    "E3": 20,
+    "E4": 6,
+    "A": 2
+  }
+}

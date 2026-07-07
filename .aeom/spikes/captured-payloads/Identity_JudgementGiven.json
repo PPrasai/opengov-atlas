@@ -1,0 +1,12 @@
+[
+  {
+    "block": 6360245,
+    "ts": 1781898576000,
+    "name": "Identity.JudgementGiven",
+    "args": {
+      "target": "0xa486b8f61886540154d33d3c585dcc9f44d076ffda5f0b0cd018246b094cd611",
+      "registrarIndex": 5
+    },
+    "extrinsic": "0x97830e67f45a80ee1c1521c1918de6720b67b676a5586a5fdde55241fcc60a6a"
+  }
+]

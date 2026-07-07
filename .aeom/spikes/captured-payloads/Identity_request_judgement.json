@@ -1,0 +1,20 @@
+[
+  {
+    "block": 6360242,
+    "ts": 1781898576000,
+    "name": "Identity.request_judgement",
+    "args": {
+      "regIndex": 5,
+      "maxFee": "0"
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0xa486b8f61886540154d33d3c585dcc9f44d076ffda5f0b0cd018246b094cd611"
+      }
+    },
+    "success": true,
+    "extrinsic": "0x14ba1679c368f1e945a624129988b525434c5eaa8b51e7f98c3bcef214f20dee"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "block": 17334624,
+    "ts": 1782128640000,
+    "name": "Referenda.place_decision_deposit",
+    "args": {
+      "index": 1909
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0x7ec67ce6d553370de0f8c2fb4a39325af4996e93a60bbd87916848fb20c65487"
+      }
+    },
+    "success": true,
+    "extrinsic": "0xd0e6886c18610ffc29fb68d911cd8359616dad68070df37085c998ff0b0ce69b"
+  },
+  {
+    "block": 17334673,
+    "ts": 1782128760000,
+    "name": "Referenda.place_decision_deposit",
+    "args": {
+      "index": 1910
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0x7ec67ce6d553370de0f8c2fb4a39325af4996e93a60bbd87916848fb20c65487"
+      }
+    },
+    "success": true,
+    "extrinsic": "0xc4eb70bec90a0d7003f0501fd7f3c92742d7112734b76c09585907b09ed360cb"
+  }
+]

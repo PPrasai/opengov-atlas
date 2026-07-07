@@ -1,0 +1,9 @@
+{
+  "project": "opengov-atlas",
+  "route": "overview",
+  "profile": "full",
+  "owner": "Parikshit",
+  "created": "2026-07-07T08:00:38+00:00",
+  "profile_rule": "Profile may be raised (ledger-visible, medium-tier), never lowered. See aeom/harness/project_profiles.json.",
+  "implementation_gate": "Implementation is a separate step initiated explicitly by the user. The Harness reports readiness and waits. See workflow_routing.json#phases.implementation."
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "block": 6269830,
+    "ts": 1781699736000,
+    "name": "Identity.clear_identity",
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0xe493d6f75cf643c543fb888c800b601ed106238a6ccda1003db444fd74de641f"
+      }
+    },
+    "success": true,
+    "extrinsic": "0xd691d3a66130df52745b072a151460aaebcfec289877ae5dbe13edf23480a3ea"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "block": 17133079,
+    "ts": 1781676192000,
+    "name": "ConvictionVoting.Delegated",
+    "args": [
+      "0x98598f8dbdbeebc17594e6fad820a74f4cd2b57c4c912d48aef2e76334a7eb24",
+      "0x63206239ed004343cce85027f05c7fea001f12b65f257f11f53a414a1c1ee9a0",
+      2
+    ],
+    "extrinsic": "0xc0fddeb8282a6ba0f6a0b55b558a7e220aa4b1331df1ad8ac358524b44ca064e"
+  },
+  {
+    "block": 17133081,
+    "ts": 1781676192000,
+    "name": "ConvictionVoting.Delegated",
+    "args": [
+      "0x98598f8dbdbeebc17594e6fad820a74f4cd2b57c4c912d48aef2e76334a7eb24",
+      "0x63206239ed004343cce85027f05c7fea001f12b65f257f11f53a414a1c1ee9a0",
+      31
+    ],
+    "extrinsic": "0xb988bc82f2e0d46c86a27e4c8fd0c4e032c591ac848d26e84f9c12daf66e0c6b"
+  },
+  {
+    "block": 17133081,
+    "ts": 1781676192000,
+    "name": "ConvictionVoting.Delegated",
+    "args": [
+      "0x98598f8dbdbeebc17594e6fad820a74f4cd2b57c4c912d48aef2e76334a7eb24",
+      "0x63206239ed004343cce85027f05c7fea001f12b65f257f11f53a414a1c1ee9a0",
+      21
+    ],
+    "extrinsic": "0xb988bc82f2e0d46c86a27e4c8fd0c4e032c591ac848d26e84f9c12daf66e0c6b"
+  },
+  {
+    "block": 17133081,
+    "ts": 1781676192000,
+    "name": "ConvictionVoting.Delegated",
+    "args": [
+      "0x98598f8dbdbeebc17594e6fad820a74f4cd2b57c4c912d48aef2e76334a7eb24",
+      "0x63206239ed004343cce85027f05c7fea001f12b65f257f11f53a414a1c1ee9a0",
+      32
+    ],
+    "extrinsic": "0xcbda38794cb658727efdf2b6c6591849f79473ebab6fa52082faf18ccf90de52"
+  },
+  {
+    "block": 17133081,
+    "ts": 1781676192000,
+    "name": "ConvictionVoting.Delegated",
+    "args": [
+      "0x98598f8dbdbeebc17594e6fad820a74f4cd2b57c4c912d48aef2e76334a7eb24",
+      "0x63206239ed004343cce85027f05c7fea001f12b65f257f11f53a414a1c1ee9a0",
+      34
+    ],
+    "extrinsic": "0xbd8767fb3c9ad44ec912e2be31e89fc9c413539e5e5235c1563d8d49d199353a"
+  },
+  {
+    "block": 17133081,
+    "ts": 1781676192000,
+    "name": "ConvictionVoting.Delegated",
+    "args": [
+      "0x98598f8dbdbeebc17594e6fad820a74f4cd2b57c4c912d48aef2e76334a7eb24",
+      "0x63206239ed004343cce85027f05c7fea001f12b65f257f11f53a414a1c1ee9a0",
+      33
+    ],
+    "extrinsic": "0xbd8767fb3c9ad44ec912e2be31e89fc9c413539e5e5235c1563d8d49d199353a"
+  }
+]

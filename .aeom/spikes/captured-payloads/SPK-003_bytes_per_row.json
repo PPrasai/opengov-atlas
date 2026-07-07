@@ -1,0 +1,37 @@
+[
+  {
+    "table": "vote",
+    "rows": 50000,
+    "emptyBytes": 24576,
+    "fullBytes": 12386304,
+    "bytesPerRow": 247.2
+  },
+  {
+    "table": "delegation",
+    "rows": 50000,
+    "emptyBytes": 20480,
+    "fullBytes": 16547840,
+    "bytesPerRow": 330.5
+  },
+  {
+    "table": "referendum",
+    "rows": 50000,
+    "emptyBytes": 20480,
+    "fullBytes": 20955136,
+    "bytesPerRow": 418.7
+  },
+  {
+    "table": "preimage",
+    "rows": 50000,
+    "emptyBytes": 12288,
+    "fullBytes": 19607552,
+    "bytesPerRow": 391.9
+  },
+  {
+    "table": "account",
+    "rows": 50000,
+    "emptyBytes": 16384,
+    "fullBytes": 10039296,
+    "bytesPerRow": 200.5
+  }
+]

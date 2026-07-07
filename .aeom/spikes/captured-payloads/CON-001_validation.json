@@ -1,0 +1,46 @@
+{
+  "inserted": {
+    "referendum": 2,
+    "vote": 6,
+    "delegation": 6,
+    "preimage": 6,
+    "account": 3
+  },
+  "queries": {
+    "top_whales_for_poll": [
+      {
+        "voter": "0xd10577dd7d364b294d2e9a0768363ac885efb8b1c469da6c4f2141d4f6560c1f",
+        "direction": "Aye",
+        "conviction": 2,
+        "balance": "84500000000000000",
+        "effective_weight": "169000000000000000"
+      },
+      {
+        "voter": "0xa2944aecbf249f5f7de8059942f2da631c4e3d2e17e017a5144979f23b89dca7",
+        "direction": "Aye",
+        "conviction": 2,
+        "balance": "84500000000000000",
+        "effective_weight": "169000000000000000"
+      },
+      {
+        "voter": "0xce492bad303c2687a84b581e5ae9979788336ffc2444d6a54fd00f6414c44ec7",
+        "direction": "Aye",
+        "conviction": 2,
+        "balance": "46700000000000000",
+        "effective_weight": "93400000000000000"
+      }
+    ],
+    "identity_search_Link": [
+      {
+        "addr": "0x2a7630e5614391d9a3b77ed3ca12fce11f56fff50d6a601e9e46c89ee89ee45c",
+        "display": "LinkPool"
+      }
+    ]
+  },
+  "integrity": {
+    "integrity_check": "ok"
+  },
+  "hotPoll": {
+    "poll": 1899
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "block": 17333563,
+    "ts": 1782126072000,
+    "name": "Referenda.Submitted",
+    "args": {
+      "index": 1909,
+      "track": 1,
+      "proposal": {
+        "hash": "0x3b3b6dd9d10d6da61aa988a9c2e830fb4247352388d4cc9b9d4d4f4cbd6c7232",
+        "len": 124,
+        "__kind": "Lookup"
+      }
+    },
+    "extrinsic": "0x71838f5c6c8e53d026dd84b31364481f2b8eecd39c5e25fbda7f0c79a19851c0"
+  },
+  {
+    "block": 17334465,
+    "ts": 1782128256000,
+    "name": "Referenda.Submitted",
+    "args": {
+      "index": 1910,
+      "track": 1,
+      "proposal": {
+        "hash": "0xfcb691b5b2bc148665d6847b109f6ac26e08d3371222284e82d1f3f320bb69c0",
+        "len": 13,
+        "__kind": "Lookup"
+      }
+    },
+    "extrinsic": "0xc06b10afedd260fa0b18236439281d2c40016ad00763a77fa9b67272f5a18110"
+  }
+]

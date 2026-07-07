@@ -1,0 +1,31 @@
+{
+  "reason": "core-data-captured",
+  "gateway": "https://v2.archive.subsquid.io/network/asset-hub-polkadot",
+  "rpc": "https://polkadot-asset-hub-rpc.polkadot.io",
+  "blockRange": {
+    "from": 17113129,
+    "lastProcessed": 17518599
+  },
+  "blocksTouched": 599,
+  "elapsedSec": 52.6,
+  "counts": {
+    "Referenda.Rejected": 4,
+    "ConvictionVoting.Voted": 315,
+    "ConvictionVoting.vote": 316,
+    "ConvictionVoting.remove_vote": 726,
+    "ConvictionVoting.Undelegated": 104,
+    "ConvictionVoting.undelegate": 111,
+    "ConvictionVoting.Delegated": 40,
+    "ConvictionVoting.delegate": 40,
+    "ConvictionVoting.VoteRemoved": 2,
+    "Preimage.Requested": 8,
+    "Referenda.ConfirmStarted": 5,
+    "Referenda.Confirmed": 5,
+    "Referenda.Submitted": 2,
+    "Referenda.submit": 2,
+    "Referenda.DecisionStarted": 2,
+    "Referenda.DecisionDepositPlaced": 2,
+    "Referenda.place_decision_deposit": 2,
+    "Preimage.note_preimage": 8
+  }
+}

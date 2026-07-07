@@ -1,0 +1,20 @@
+{
+  "reason": "captured",
+  "source": "people-chain archive",
+  "blockRange": {
+    "from": 6233084,
+    "lastProcessed": 6430849
+  },
+  "blocksTouched": 403,
+  "elapsedSec": 23.8,
+  "counts": {
+    "Identity.IdentityCleared": 1,
+    "Identity.clear_identity": 1,
+    "Identity.IdentitySet": 3,
+    "Identity.set_identity": 3,
+    "Identity.request_judgement": 1,
+    "Identity.JudgementGiven": 1,
+    "Identity.provide_judgement": 1,
+    "Identity.set_subs": 1
+  }
+}

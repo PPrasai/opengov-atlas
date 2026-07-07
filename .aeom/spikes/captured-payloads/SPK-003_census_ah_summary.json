@@ -1,0 +1,29 @@
+{
+  "chain": "assethub",
+  "from": 10200000,
+  "to": 17960000,
+  "lastBlock": 17916639,
+  "lastTs": "2026-07-07T10:12:24.000Z",
+  "voteCalls": 6911,
+  "votedEvents": 6872,
+  "callKinds": {
+    "Standard": 6293,
+    "Split": 11,
+    "SplitAbstain": 607,
+    "other": 0
+  },
+  "eventKinds": {
+    "Standard": 6256,
+    "Split": 11,
+    "SplitAbstain": 605,
+    "other": 0
+  },
+  "delegateCalls": 1180,
+  "delegatedEvents": 1174,
+  "notePreimageCalls": 208,
+  "referendaSubmitted": 137,
+  "distinctPolls": 207,
+  "splitN": 3,
+  "splitAbstainN": 3,
+  "elapsedSec": 956
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "block": 17185428,
+    "ts": 1781793144000,
+    "name": "ConvictionVoting.VoteRemoved",
+    "args": {
+      "who": "0x70472afbf636a8e281850e5a0700ce70b2ce675bb2038e92b134fd7f5d02bf0b",
+      "vote": {
+        "vote": 129,
+        "balance": "450000000000000",
+        "__kind": "Standard"
+      },
+      "pollIndex": 1908
+    },
+    "extrinsic": "0x2509400dba44b2c8914a77c29f10989253e3f4841d56cc00bcea8c54d29a3f94"
+  },
+  {
+    "block": 17501776,
+    "ts": 1782514392000,
+    "name": "ConvictionVoting.VoteRemoved",
+    "args": {
+      "who": "0x0c9b3e6a2fd9858cb1b14ebd3187f4418b40d7a1696e9562fd5db42e1343931e",
+      "vote": {
+        "vote": 129,
+        "balance": "0",
+        "__kind": "Standard"
+      },
+      "pollIndex": 1909
+    },
+    "extrinsic": "0x3873dd400f2fda4778d921be9a10d1c710dce09e12b97d179bf27dafcc4dca2a"
+  }
+]

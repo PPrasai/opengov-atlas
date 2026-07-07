@@ -1,0 +1,51 @@
+{
+  "reason": "global-timeout",
+  "blockWindow": {
+    "from": 13913699,
+    "lastProcessed": 16938149
+  },
+  "ingest_sec": 360.1,
+  "counts": {
+    "referendum": 30,
+    "vote": 1443,
+    "delegation": 200,
+    "preimage": 73
+  },
+  "hotPoll": {
+    "poll": 1890,
+    "c": 110
+  },
+  "hotVoter": {
+    "voter": "0x7e2bbba73731f35e9fb919bc4135ea6fcaa87b293c1322d06a144b2a6340a016",
+    "c": 48
+  },
+  "db_bytes": 188416,
+  "db_mb": 0.18,
+  "perRow": {
+    "bytes_total": 188416,
+    "rows_total": 1746,
+    "bytes_per_row": 108
+  },
+  "benches": [
+    {
+      "label": "single_hop:votes_for_referendum(hotPoll)",
+      "ms_per_query": 0.1696,
+      "sample_rows": 110
+    },
+    {
+      "label": "single_hop:votes_by_account(hotVoter)",
+      "ms_per_query": 0.0743,
+      "sample_rows": 48
+    },
+    {
+      "label": "single_hop:outbound_delegations(hotVoter)",
+      "ms_per_query": 0.0083,
+      "sample_rows": 0
+    },
+    {
+      "label": "single_hop:inbound_delegations(hotVoter)",
+      "ms_per_query": 0.008,
+      "sample_rows": 0
+    }
+  ]
+}

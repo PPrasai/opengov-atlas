@@ -1,0 +1,104 @@
+[
+  {
+    "block": 17126383,
+    "ts": 1781661432000,
+    "name": "ConvictionVoting.undelegate",
+    "args": {
+      "class": 32
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0xecef3a91c92840fb38e4cd3e20a604c75992cda08df8135416e5f4504e3d681d"
+      }
+    },
+    "success": true,
+    "extrinsic": "0x57a6b866c74b20be92486862a7f263fb33ab57a59467c61dd31627e3cd5ce07c"
+  },
+  {
+    "block": 17126405,
+    "ts": 1781661480000,
+    "name": "ConvictionVoting.undelegate",
+    "args": {
+      "class": 30
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0xecef3a91c92840fb38e4cd3e20a604c75992cda08df8135416e5f4504e3d681d"
+      }
+    },
+    "success": true,
+    "extrinsic": "0x788a8f7e73c1b6764fc2edbdc2ae2abbbfa4498d9ae99a856e475d797998cb7c"
+  },
+  {
+    "block": 17133079,
+    "ts": 1781676192000,
+    "name": "ConvictionVoting.undelegate",
+    "args": {
+      "class": 2
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0x98598f8dbdbeebc17594e6fad820a74f4cd2b57c4c912d48aef2e76334a7eb24"
+      }
+    },
+    "success": true,
+    "extrinsic": "0xc0fddeb8282a6ba0f6a0b55b558a7e220aa4b1331df1ad8ac358524b44ca064e"
+  },
+  {
+    "block": 17133079,
+    "ts": 1781676192000,
+    "name": "ConvictionVoting.undelegate",
+    "args": {
+      "class": 31
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0x98598f8dbdbeebc17594e6fad820a74f4cd2b57c4c912d48aef2e76334a7eb24"
+      }
+    },
+    "success": true,
+    "extrinsic": "0xc0fddeb8282a6ba0f6a0b55b558a7e220aa4b1331df1ad8ac358524b44ca064e"
+  },
+  {
+    "block": 17133081,
+    "ts": 1781676192000,
+    "name": "ConvictionVoting.undelegate",
+    "args": {
+      "class": 21
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0x98598f8dbdbeebc17594e6fad820a74f4cd2b57c4c912d48aef2e76334a7eb24"
+      }
+    },
+    "success": true,
+    "extrinsic": "0xb988bc82f2e0d46c86a27e4c8fd0c4e032c591ac848d26e84f9c12daf66e0c6b"
+  },
+  {
+    "block": 17133081,
+    "ts": 1781676192000,
+    "name": "ConvictionVoting.undelegate",
+    "args": {
+      "class": 32
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0x98598f8dbdbeebc17594e6fad820a74f4cd2b57c4c912d48aef2e76334a7eb24"
+      }
+    },
+    "success": true,
+    "extrinsic": "0xcbda38794cb658727efdf2b6c6591849f79473ebab6fa52082faf18ccf90de52"
+  }
+]

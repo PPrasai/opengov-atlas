@@ -1,0 +1,64 @@
+[
+  {
+    "block": 17333563,
+    "ts": 1782126072000,
+    "name": "Referenda.submit",
+    "args": {
+      "proposalOrigin": {
+        "__kind": "Origins",
+        "value": {
+          "__kind": "WhitelistedCaller"
+        }
+      },
+      "proposal": {
+        "hash": "0x3b3b6dd9d10d6da61aa988a9c2e830fb4247352388d4cc9b9d4d4f4cbd6c7232",
+        "len": 124,
+        "__kind": "Lookup"
+      },
+      "enactmentMoment": {
+        "__kind": "After",
+        "value": 10
+      }
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0xb031bd2bb49eab8e971d4734110faca76ae52998450b0f23ef46029277a1e539"
+      }
+    },
+    "success": true,
+    "extrinsic": "0x71838f5c6c8e53d026dd84b31364481f2b8eecd39c5e25fbda7f0c79a19851c0"
+  },
+  {
+    "block": 17334465,
+    "ts": 1782128256000,
+    "name": "Referenda.submit",
+    "args": {
+      "proposalOrigin": {
+        "__kind": "Origins",
+        "value": {
+          "__kind": "WhitelistedCaller"
+        }
+      },
+      "proposal": {
+        "hash": "0xfcb691b5b2bc148665d6847b109f6ac26e08d3371222284e82d1f3f320bb69c0",
+        "len": 13,
+        "__kind": "Lookup"
+      },
+      "enactmentMoment": {
+        "__kind": "After",
+        "value": 10
+      }
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0xb031bd2bb49eab8e971d4734110faca76ae52998450b0f23ef46029277a1e539"
+      }
+    },
+    "success": true,
+    "extrinsic": "0xc06b10afedd260fa0b18236439281d2c40016ad00763a77fa9b67272f5a18110"
+  }
+]

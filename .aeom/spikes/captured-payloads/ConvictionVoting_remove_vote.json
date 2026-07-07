@@ -1,0 +1,110 @@
+[
+  {
+    "block": 17126342,
+    "ts": 1781661360000,
+    "name": "ConvictionVoting.remove_vote",
+    "args": {
+      "class": 33,
+      "index": 1858
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0xecef3a91c92840fb38e4cd3e20a604c75992cda08df8135416e5f4504e3d681d"
+      }
+    },
+    "success": true,
+    "extrinsic": "0x6e0d0d0c2ec92534dbbb7d7b0c9315ed5d9f3812f233fe132002ce81833e5777"
+  },
+  {
+    "block": 17126342,
+    "ts": 1781661360000,
+    "name": "ConvictionVoting.remove_vote",
+    "args": {
+      "class": 33,
+      "index": 1859
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0xecef3a91c92840fb38e4cd3e20a604c75992cda08df8135416e5f4504e3d681d"
+      }
+    },
+    "success": true,
+    "extrinsic": "0x6e0d0d0c2ec92534dbbb7d7b0c9315ed5d9f3812f233fe132002ce81833e5777"
+  },
+  {
+    "block": 17126342,
+    "ts": 1781661360000,
+    "name": "ConvictionVoting.remove_vote",
+    "args": {
+      "class": 1,
+      "index": 1862
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0xecef3a91c92840fb38e4cd3e20a604c75992cda08df8135416e5f4504e3d681d"
+      }
+    },
+    "success": true,
+    "extrinsic": "0x6e0d0d0c2ec92534dbbb7d7b0c9315ed5d9f3812f233fe132002ce81833e5777"
+  },
+  {
+    "block": 17126342,
+    "ts": 1781661360000,
+    "name": "ConvictionVoting.remove_vote",
+    "args": {
+      "class": 1,
+      "index": 1864
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0xecef3a91c92840fb38e4cd3e20a604c75992cda08df8135416e5f4504e3d681d"
+      }
+    },
+    "success": true,
+    "extrinsic": "0x6e0d0d0c2ec92534dbbb7d7b0c9315ed5d9f3812f233fe132002ce81833e5777"
+  },
+  {
+    "block": 17126342,
+    "ts": 1781661360000,
+    "name": "ConvictionVoting.remove_vote",
+    "args": {
+      "class": 1,
+      "index": 1869
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0xecef3a91c92840fb38e4cd3e20a604c75992cda08df8135416e5f4504e3d681d"
+      }
+    },
+    "success": true,
+    "extrinsic": "0x6e0d0d0c2ec92534dbbb7d7b0c9315ed5d9f3812f233fe132002ce81833e5777"
+  },
+  {
+    "block": 17126342,
+    "ts": 1781661360000,
+    "name": "ConvictionVoting.remove_vote",
+    "args": {
+      "class": 11,
+      "index": 1871
+    },
+    "origin": {
+      "__kind": "system",
+      "value": {
+        "__kind": "Signed",
+        "value": "0xecef3a91c92840fb38e4cd3e20a604c75992cda08df8135416e5f4504e3d681d"
+      }
+    },
+    "success": true,
+    "extrinsic": "0x6e0d0d0c2ec92534dbbb7d7b0c9315ed5d9f3812f233fe132002ce81833e5777"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "block": 15978468,
+  "ts": "2023-06-15T12:28:48.001Z",
+  "args": {
+    "pollIndex": 0,
+    "vote": {
+      "vote": 0,
+      "balance": "10000000000",
+      "__kind": "Standard"
+    }
+  },
+  "origin": {
+    "__kind": "system",
+    "value": {
+      "__kind": "Signed",
+      "value": "0x2e33c5e14a53e874caa8e7c6d30bd20f6c51cda7dafaad1c465ca004fe61a63e"
+    }
+  }
+}
