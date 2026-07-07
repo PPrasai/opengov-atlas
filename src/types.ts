@@ -2,16 +2,19 @@ export type NodeId = string;
 
 export interface GraphNode {
   id: NodeId;
-  kind: 'referendum' | 'track' | 'account' | 'preimage' | 'vote' | 'delegation';
+  kind: NodeKind;
   label: string;
   data: Record<string, unknown>;
   alreadyVisited?: boolean;
 }
 
+export type NodeKind = 'referendum' | 'track' | 'account' | 'preimage' | 'vote' | 'delegation' | 'box' | 'group' | 'cluster';
+export type Relation = 'runs_on' | 'enacts' | 'submitted_by' | 'received_vote' | 'cast_by' | 'delegates_to' | 'delegates_from' | 'pays' | 'sub_identity_of' | 'contains' | 'paid_decision_deposit' | 'enacted_by' | 'vote_on' | 'unknown' | 'votes' | string;
+
 export interface GraphEdge {
   source: NodeId;
   target: NodeId;
-  relation: 'runs_on' | 'enacts' | 'submitted_by' | 'received_vote' | 'cast_by' | 'delegates_to' | 'pays';
+  relation: Relation;
 }
 
 export interface ClusterAggregate {
