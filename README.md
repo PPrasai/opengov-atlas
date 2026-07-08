@@ -30,7 +30,19 @@ npm run build
 
 ## Data Syncing
 
-To fetch the latest blocks and update the SQLite database:
+If you are on Windows and lack Visual Studio C++ build tools, you can use Docker to safely update the database without SSL or `better-sqlite3` build errors:
+
+To install the Subsquid/SQLite dependencies via Docker:
+```bash
+docker run --rm -v "${PWD}:/app" -w /app node:20 npm install
+```
+
+To fetch the latest ongoing referenda blocks and update the local database directly from the Polkadot RPC:
+```bash
+docker run --rm -v "${PWD}:/app" -w /app node:20 bash -c "node --no-warnings --loader ts-node/esm scripts/update-latest.ts"
+```
+
+To run the standard Subsquid backfill pipeline (requires implementing the parsing skeleton):
 ```bash
 npm run backfill
 ```
